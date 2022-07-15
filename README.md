@@ -18,8 +18,8 @@ directory in a vim configuration file.
 
 To do this, after installing endlessskydata.vim into `$HOME/.vim/syntax` as above, navigate to that directory and add the symlink:
 
-`> cd ~/.vim/syntax`  
-`> ln -s endlessskydata.vim esky.vim`
+`cd ~/.vim/syntax`  
+`ln -s endlessskydata.vim esky.vim`
 
 ###### license
 
