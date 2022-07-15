@@ -103,7 +103,6 @@ syn keyword esdatak
         \ minable
         \ minables
         \ minor
-        \ mission
         \ month
         \ mortgage
         \ music
@@ -162,7 +161,6 @@ syn keyword esdatak
         \ spaceport
         \ sprite
         \ star
-        \ start
         \ stealth
         \ stopover
         \ string
@@ -189,6 +187,10 @@ syn keyword esdatak
         \ weapon
         \ wind
         \ word
+
+syn keyword esdatamajor
+        \ mission
+        \ start
 
 syn keyword esdataperson
         \ appeasing
@@ -229,7 +231,8 @@ syn match esdataop "\([<>]\)\([+-<?>=]\)=\|++\|--\|==\|[<>]\|+\|-\|="
 hi def link esdatas String
 hi def link esdatan Constant
 hi def link esdataf Float
-hi def link esdatak Keyword
+hi def link esdatak Identifier
 hi def link esdataperson Special
 hi def link esdatacomment Comment
 hi def link esdataop Operator
+hi def link esdatamajor Function
